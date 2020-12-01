@@ -6,6 +6,7 @@ def part1(arr):
     for i in arr:
         if 2020 - arr[i] in arr:
             print(i*(2020-arr[i]))
+            return
 
 def part2(arr):
     for i in arr:
@@ -14,5 +15,6 @@ def part2(arr):
             if arr[i] != arr[j]:
                 if bal - arr[j] in arr:
                     print(arr[i] * arr[j] * (bal - arr[j]))
-
+                    return
+part1(arr)
 part2(arr)
