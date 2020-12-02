@@ -35,7 +35,7 @@ How many passwords are valid according to the new interpretation of the policies
 '''
 x = open('input2.txt', 'r')
 
-def part1():
+def part1(x):
     for line in x:
         string = line.split(' ')
         boundaries = string[0].split('-')
