@@ -1,4 +1,3 @@
-x = open('input7.txt', 'r')
 def makeInput(part):
     bags = {}
     for line in x:
