@@ -32,8 +32,6 @@ def part2(arr):
     while line < length:
         i = 0
         d = {}
-        while arr[line][0] == 'acc':
-            line += 1
         # flip instruction
         arr[line][0] = alternate(arr[line][0])
         # check for infinite loop given the new instruction
