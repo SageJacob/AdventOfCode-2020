@@ -34,4 +34,4 @@ for line in s:
     arr.append(line)
 arr.append(0)
 arr.sort()
-print(part2(arr))
+print(part2([0,1,3,4,5, 8]))
